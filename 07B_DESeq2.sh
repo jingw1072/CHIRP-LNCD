@@ -38,7 +38,7 @@ out="/tscc/lustre/ddn/scratch/$USER/chirp_seq_analysis/LNC-D"
 
 script_dir="$out/scripts"
 
-R_script="$script_dir/07B_DESeq2.R"
+R_script="/tscc/nfs/home/jiw169/github/CHIRP-LNCD/07B_DESeq2.R"
 
 
 # ============================================================
