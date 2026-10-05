@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # =============================================================================
-# STEP 4 - Call peaks with MACS2 (find where DUBR binds the genome).
+# STEP 4 - Call peaks with MACS2 (find where LNCD binds the genome).
 #
-# A "peak" is a spot where the EVEN or ODD sample has many more reads than the
-# Input (background) sample - i.e. a likely DUBR binding site. We then keep only
+# A "peak" is a spot where the sample has many more reads than the
+# Input (background) sample - i.e. a likely LNCD binding site. We then keep only
 # strong peaks (at least 5x more signal than background) and remove peaks that
 # fall in known problem regions (the blacklist).
 #

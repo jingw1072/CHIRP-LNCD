@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # =============================================================================
-# STEP 3 - Clean up the aligned reads, then combine the two replicates.
+# STEP 3 - Clean up the aligned reads, then combine the 3 replicates.
 #
 # Two things happen here:
 #   1) FILTER each sample: remove PCR duplicates, keep only properly-paired
